@@ -1,0 +1,7 @@
+#Fri Jul 01 05:10:38 EDT 2022
+base.1=/Users/hc4162/03-improving-the-layout/android/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/classes.dex
+path.1=classes.dex
+base.0=/Users/hc4162/03-improving-the-layout/android/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

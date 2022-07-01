@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.expo.client"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:4:3-75
+11-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:4:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:2:3-64
+12-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:3:3-77
+13-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:3:20-75
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:5:3-63
+14-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:5:20-61
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:6:3-78
+15-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:6:20-76
+16
+17    <queries>
+17-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:7:3-13:13
+18        <intent>
+18-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:8:5-12:14
+19            <action android:name="android.intent.action.VIEW" />
+19-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:9:7-58
+19-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:9:15-56
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:10:7-67
+21-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:10:17-65
+22
+23            <data android:scheme="https" />
+23-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:11:7-37
+23-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:11:13-35
+24        </intent>
+25        <!-- Query open documents -->
+26        <intent>
+26-->[:expo-file-system] /Users/hc4162/03-improving-the-layout/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-21:18
+27            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+27-->[:expo-file-system] /Users/hc4162/03-improving-the-layout/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-79
+27-->[:expo-file-system] /Users/hc4162/03-improving-the-layout/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:21-76
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+31-->[com.facebook.flipper:flipper:0.54.0] /Users/hc4162/.gradle/caches/transforms-3/0f2bef1e1583f0ad95b6ac1af5935529/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+31-->[com.facebook.flipper:flipper:0.54.0] /Users/hc4162/.gradle/caches/transforms-3/0f2bef1e1583f0ad95b6ac1af5935529/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.android.installreferrer:installreferrer:1.0] /Users/hc4162/.gradle/caches/transforms-3/066427edac566005b266cc1491875665/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+32-->[com.android.installreferrer:installreferrer:1.0] /Users/hc4162/.gradle/caches/transforms-3/066427edac566005b266cc1491875665/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+33
+34    <application
+34-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:14:3-34:17
+35        android:name="io.expo.client.MainApplication"
+35-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:14:16-47
+36        android:allowBackup="true"
+36-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:14:162-188
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.3.0] /Users/hc4162/.gradle/caches/transforms-3/9608d07c7b7b72b26af6ee557163dc09/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:14:81-115
+40        android:label="@string/app_name"
+40-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:14:48-80
+41        android:networkSecurityConfig="@xml/network_security_config"
+41-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:15:5-65
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:14:116-161
+43        android:theme="@style/AppTheme"
+43-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:14:189-220
+44        android:usesCleartextTraffic="true" >
+44-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:14:221-256
+45        <meta-data
+45-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:16:5-82
+46            android:name="expo.modules.updates.ENABLED"
+46-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:16:16-59
+47            android:value="true" />
+47-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:16:60-80
+48        <meta-data
+48-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:17:5-93
+49            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+49-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:17:16-68
+50            android:value="44.0.0" />
+50-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:17:69-91
+51        <meta-data
+51-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:18:5-105
+52            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+52-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:18:16-80
+53            android:value="ALWAYS" />
+53-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:18:81-103
+54        <meta-data
+54-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:19:5-99
+55            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+55-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:19:16-79
+56            android:value="0" />
+56-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:19:80-97
+57        <meta-data
+57-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:20:5-122
+58            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+58-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:20:16-67
+59            android:value="https://exp.host/@anonymous/RNCourse" />
+59-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:20:68-120
+60
+61        <activity
+61-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:21:5-32:16
+62            android:name="io.expo.client.MainActivity"
+62-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:21:15-43
+63            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+63-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:21:77-154
+64            android:label="@string/app_name"
+64-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:21:44-76
+65            android:launchMode="singleTask"
+65-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:21:155-186
+66            android:screenOrientation="portrait"
+66-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:21:276-312
+67            android:theme="@style/Theme.App.SplashScreen"
+67-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:21:230-275
+68            android:windowSoftInputMode="adjustResize" >
+68-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:21:187-229
+69            <intent-filter>
+69-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:22:7-25:23
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:23:9-60
+70-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:23:17-58
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:24:9-68
+72-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:24:19-66
+73            </intent-filter>
+74            <intent-filter>
+74-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:26:7-31:23
+75                <action android:name="android.intent.action.VIEW" />
+75-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:9:7-58
+75-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:9:15-56
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:28:9-67
+77-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:28:19-65
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:10:7-67
+78-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:10:17-65
+79
+80                <data android:scheme="io.expo.client" />
+80-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:11:7-37
+80-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:11:13-35
+81            </intent-filter>
+82        </activity>
+83        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+83-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:33:5-81
+83-->/Users/hc4162/03-improving-the-layout/android/app/src/main/AndroidManifest.xml:33:15-79
+84
+85        <provider
+85-->[:expo-file-system] /Users/hc4162/03-improving-the-layout/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-34:20
+86            android:name="expo.modules.filesystem.FileSystemFileProvider"
+86-->[:expo-file-system] /Users/hc4162/03-improving-the-layout/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-74
+87            android:authorities="io.expo.client.FileSystemFileProvider"
+87-->[:expo-file-system] /Users/hc4162/03-improving-the-layout/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-74
+88            android:exported="false"
+88-->[:expo-file-system] /Users/hc4162/03-improving-the-layout/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-37
+89            android:grantUriPermissions="true" >
+89-->[:expo-file-system] /Users/hc4162/03-improving-the-layout/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-47
+90            <meta-data
+90-->[:expo-file-system] /Users/hc4162/03-improving-the-layout/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-33:70
+91                android:name="android.support.FILE_PROVIDER_PATHS"
+91-->[:expo-file-system] /Users/hc4162/03-improving-the-layout/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:17-67
+92                android:resource="@xml/file_system_provider_paths" />
+92-->[:expo-file-system] /Users/hc4162/03-improving-the-layout/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:17-67
+93        </provider>
+94
+95        <meta-data
+95-->[:expo-modules-core] /Users/hc4162/03-improving-the-layout/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:89
+96            android:name="org.unimodules.core.AppLoader#react-native-headless"
+96-->[:expo-modules-core] /Users/hc4162/03-improving-the-layout/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+97            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+97-->[:expo-modules-core] /Users/hc4162/03-improving-the-layout/node_modules/expo-modules-core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-86
+98    </application>
+99
+100</manifest>

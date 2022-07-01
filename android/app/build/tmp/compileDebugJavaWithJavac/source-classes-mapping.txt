@@ -1,0 +1,14 @@
+io/expo/client/ReactNativeFlipper.java
+ io.expo.client.ReactNativeFlipper
+ io.expo.client.ReactNativeFlipper$1
+ io.expo.client.ReactNativeFlipper$2
+ io.expo.client.ReactNativeFlipper$2$1
+io/expo/client/MainActivity.java
+ io.expo.client.MainActivity
+io/expo/client/MainApplication.java
+ io.expo.client.MainApplication
+ io.expo.client.MainApplication$1
+io/expo/client/BuildConfig.java
+ io.expo.client.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

@@ -1,0 +1,4 @@
+io/expo/client/test/BuildConfig.java
+ io.expo.client.test.BuildConfig
+com/io.expo.client/DetoxTest.java
+ io.expo.client.DetoxTest

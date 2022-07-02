@@ -3,10 +3,10 @@
 Learn how to setup your local or CI environment to run E2E tests on iOS & Android emulators with Detox. Write E2E tests for a demo application covering best practices and gotchas along the way.
 
 ## Table of contents
-- Setup
-- Running
-- App Overiview
-- E2E Test Cases
+- [Start Project](#start-project)
+- [Running](#running)
+- [App Overview](#app-overview)
+- [E2E Test Cases](#e2e-test-cases)
 
 # Start Project
 
@@ -49,7 +49,7 @@ npm install
 // Install pods
 cd ios && pod install
 ```
-## Start projects
+## Start project
 
 ```sh
 // Start Metro in new terminal
@@ -68,3 +68,32 @@ npx react-native run-android
 ```
 
 If everything went well - you will see app with movies running in iOS and Android simulators.
+
+# Running
+
+## Run tests to make sure the configuration is correct
+
+```sh
+detox build -c <configuration name>
+
+npx react-native start
+
+detox test -c <configuration name>
+```
+
+# App Overview
+
+We love tracking our goals! The demo is an app for our detox demonstration.
+
+There is only one main screen
+
+![This is an image](https://github.com/quintonmills/Goals-Tracker/blob/master/assets/goalstracker.png)
+
+
+The main tab is a list of Goals. You can also add Goals in the tracker by filling out the text box at the top of the screen.
+
+# E2E Test Cases 
+
+We want to write e2e tests to cover these user flows
+- [ ] user can create own goal and add it
+- [ ] user can view all added goals
